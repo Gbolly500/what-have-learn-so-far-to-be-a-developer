@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo span{
+    color: red;
+    font-size: 20px;
+}
+li{
+    list-style-type: none;
+    padding-right: 100px;
+}
+.parent{
+    background:linear-gradient( rgba(1, 1, 24, 0.281),rgba(12, 1, 1, 0.986)) ,url(media/Netflix.jpg);
+}
+.text{
+    color: white;
+    text-align: center;
+    padding: 200px;
+}
+.w{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.r{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.text button{
+    margin-top: 10px;
+}
+.text h1{
+    font-size: 50px;
+}
+input{
+    padding: 10px 250px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.541);
+    border: 2px solid rgba(255, 255, 255, 0.445);
+    color: white;
+    border-radius: 10px;
+}
+form{
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: rgba(255, 255, 255, 0.171);
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.g{
+    padding: 5px 30px 10px 5px;
+    display: inline-flex;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+}
+.logo{
+    padding-left: 200px;
+    font-size: medium;
+}
+.parent li button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+.line2{
+    background-color: black;
+    border: 8px solid rgb(17, 3, 3);
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enjoy{
+    color: white;
+    font-size: 40px;
+}
+.line2 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.image{
+    position: relative;
+}
+
+
+

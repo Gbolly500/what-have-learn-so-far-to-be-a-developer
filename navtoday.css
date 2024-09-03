@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+}
+.but button{
+    background-color: rgb(205, 255, 208);
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+    padding: 200px;
+}
+ .text button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: palevioletred;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+}
+.d{
+    background-image: url(media/GM.jfif) ; -webkit-background-clip: text;
+    color: transparent;
+}
+.text h1{
+    font-size: 50px;
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    background-color: #262626;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo h2{
+    color: #005cbb;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+.sp{
+    position: relative;
+}
+.sp span{
+    position: absolute;
+    left: 2px;
+}
+.logo img{
+    width: 80px;
+}
+.img1{
+    background-image: url(media/p_frozen_18373_3131259c.jpeg);
+    width: 400px;
+    height: 300px;
+}
+.img2{
+    background-image: url(media/movies2.jpg);
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+.img3{
+    background-image: url(media/movies4.avif);
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 200px;
+    z-index: 100;
+}
+.img4{
+    background-image: url(media/movies6.jpg);
+    width: 400px;
+    height: 400px;
+    z-index: 100;
+    position: absolute;
+    right: 300px;
+    top: 8px;
+}
+.secondpage{
+    display: flex;
+    position: relative;
+    padding: 40px;
+}
+.pg{
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 200px;
+    z-index: 150;
+    top: 2px;
+}

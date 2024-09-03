@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    border-radius: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav{
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px 15px 25px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 18px;
+}
+li{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.page{
+    background-color: lightcoral;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.text span{
+    color: green;
+    padding: 8%;
+}
+.text{
+    color: white;
+    padding-right: 600px;
+}
+h1{
+
+}

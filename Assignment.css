@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 40px;
+}
+li{
+    list-style-type: none;
+    color: white;
+}
+nav li button{
+    border-radius: 20px;
+    padding: 5px;
+}
+.parent{
+    /* background-color: brown; */
+    color: white;
+    padding-left: 200px;
+    height: 92vh;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 span{
+    color: red;
+}
+.logo{
+    padding-left: 200px;
+}
+.parent p{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.parent button{
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 2px 10px 2px 10px;
+}
+img{
+    border: 8px solid rgb(163, 7, 163);
+    border-radius: 20px;
+    border-image: linear-gradient(to right red blue);
+}
+.img{
+    padding-right: 50px;
+}
+.logo h1{
+    color: white;
+}
+nav li button{
+    background-color: rgb(12, 10, 143);
+    color: white;
+    border: 1px solid red;
+}
+.b{
+    background-color: red;
+    color: white;
+    border: 1px;
+    align-items: center;
+    display: inline-flex;
+}
+.c{
+    background-color: rgb(51, 11, 11);
+    color: white;
+    border: 1px solid red;
+    align-items: center;
+    display: inline-flex;
+}
+.hero{
+    background: linear-gradient(45deg,rgba(148, 9, 9, 0.89), rgb(4, 4, 49), rgb(4, 4, 37), rgb(7, 7, 151));
+}
+.c span{
+    color: rgb(110, 18, 18);
+}
+

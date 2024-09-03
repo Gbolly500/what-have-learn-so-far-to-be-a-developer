@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 45px ;
+}
+nav p{
+    background-color: blue;
+}
+.nav1 p{
+    text-align: center;
+    color: white;
+    display: flex;
+    padding-left: 400px;
+}
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    padding-left: 850px;
+    gap: 15px;
+    background-color: whitesmoke;
+}
+li{
+    display: flex;
+    color: blue;
+    background-color: ;
+    
+}
+.logo h1{
+    color: blue;
+}
+.parent{
+    display: flex;
+}
+.parent ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.parent ul li:first-child{
+    padding-left: 25px;
+}
+.parent li{
+    color: black;
+}
+.parent ul li:last-child{
+    padding-left: 350px;
+}
+ .parent button{
+    background-color: blue;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    border: 20px;
+}
+.global p{
+color: black;
+display: flex;
+}
+.team h2{
+    font-size: 40px;
+}
+.team p{
+    padding-top: 20px;
+}
+.team{
+    padding-left: 45px;
+    padding-top: 45px;
+}
+.a{
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.o{
+    border-radius: 20px;
+    padding: 10px;
+    border: 10px;
+}
+.global{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    margin-right: 190px;
+}
+.team button{
+    margin-top: 20px;
+}
+.team span{
+    color: blue;
+}
+.a span{
+    color: blue;
+    text-align: center;
+}

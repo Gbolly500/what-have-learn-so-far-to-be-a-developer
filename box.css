@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gen{
+    padding: 20px;
+}
+.b1{
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+}
+.first{
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+}
+.b2{
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+}
+.box3{
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+}

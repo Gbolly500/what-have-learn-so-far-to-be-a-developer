@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+ul{
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.first{
+    padding: 100px 40px 10px 20px;
+}

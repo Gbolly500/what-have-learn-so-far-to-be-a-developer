@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1,.box3,.box4,.box5{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.gen{
+    padding: 40px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-color: aqua;
+    padding: 30px;
+}
+.box2{
+    background-color: blueviolet;
+    width: 100px;
+    height: 50px;
+}
+.box3{
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.box4{
+    background-color: chocolate;
+}
+.box5{
+    background-color: crimson;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    border: 1px solid  black;
+    background-color: darkorange;
+}

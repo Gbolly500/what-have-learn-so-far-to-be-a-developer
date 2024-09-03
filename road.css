@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(,..);
+}
+ /* .box{
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    animation: box 5s 3s 4;
+    transform-origin: 10%;
+} */
+.gen{
+    padding: 20px;
+    
+}
+@keyframes box {
+    0%{
+        transform: scaleX(0);
+        transform: skewX(10deg);
+    }
+    100%{
+        transform: scaleX(1);
+        transform: skewX(360deg);
+    }
+}
+.road img{
+    width: 100%;
+}
+.road{
+    width: 500px;
+    animation: car 5s 5s infinite;
+    transform-origin: ;
+}
+@keyframes car {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform:  translateX(900px);
+    }
+}

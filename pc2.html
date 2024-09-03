@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .parent{
+        background-color: blueviolet;
+        height: 100vh;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .child{
+        background-color: white;
+        height: 400px;
+        padding: 15px;
+        border-radius:20px ;
+        width: 400px;
+
+    }
+    h1{
+        text-align: center;
+    }
+    .lorem{
+        text-align: center;
+        margin: 20px;
+    }
+    input{
+        display: block;
+        padding: 20px;
+        margin: 5px;
+        width: 350px;
+        border-radius: 15px;
+    }
+    .Login{
+        background-color: blueviolet;
+        color: azure;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <div>
+              <h1>Login</h1>
+              <p class="lorem">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, unde!
+              </p>
+              <form action="">
+                <input type="text" placeholder="Useername">
+                <input type="text" placeholder="Gmail">
+                <input type="text" placeholder="Password">
+                <input type="button" value="Login" class="Login">
+              </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

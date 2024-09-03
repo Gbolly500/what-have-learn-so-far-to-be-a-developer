@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+.up_1, .down_2{
+    border:1px solid black;
+    height:100px;
+    width:200px;
+}
+.down_1, .up_2{
+    border:1px solid black;
+    height:50px;
+    width:200px;
+}
+.left{
+    display:grid;
+    gap:10px;
+}
+.right{
+    display:grid;
+    gap:10px;
+}
+.alpha{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+.omega{
+    border:1px solid black;
+    height:25px;
+    width:410px;
+}
+.first{
+    display:grid;
+    gap:10px;
+    margin-left:10px;
+}
+.alafia, .otun{
+    border:1px solid black;
+    height:160px;
+    width:200px;
+}
+.ekini{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap:10px;
+}
+.alafia_1, .otun_1{
+    border:1px solid black;
+    height:25px;
+    width: 200px;
+}
+.ekeji{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:10px;
+}
+.general{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap:50px;
+    padding: 20px;
+}
+.second{
+    display:grid;
+    gap:10px;
+}

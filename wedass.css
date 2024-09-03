@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+}
+nav button{
+    background: #c1dcdc;
+    border: none;
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+}
+.ico{
+    display: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+li{
+    list-style-type: none;
+}
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    background: #c1dcdc;
+    
+}
+.con{
+    padding: 137px;
+}
+.num{
+   display: flex;
+   gap: 240px;
+   font-size: 30px;
+   padding-bottom: 20px;
+}
+.word{
+    display: flex;
+    gap: 180px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.lastpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    background: white;
+    border-radius: 10px;
+}
+.lastpart .what{
+    border: none;
+    padding: 15px 10px 15px 10px;
+    font-size: 30px;
+    outline: none;
+}
+.hero h1{
+    font-size: 70px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+input{
+    border: none;
+    font-size: 20px;
+    outline: none;
+
+}
+.icon button{
+    background: #c1dcdc;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    height: 40px;
+}
+.secondpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4,1fr); */
+    /* padding-top: 40px; */
+    /* text-align: center; */
+    
+}
+.submit button{
+    display: inline-flex;
+    align-items: center;
+    width: 220px;
+    justify-content: center;
+    background: #c1dcdc;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.submit h1,p{
+    padding-bottom: 15px;
+}
+.submit h1{
+    font-size: 50px;
+}
+.pg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    padding-top: 60px;
+}
+.logo button{
+    width: 50px;
+    padding: 12px;
+    background: #c1dcdc;
+    border-radius: 30px;
+    border: none;
+}

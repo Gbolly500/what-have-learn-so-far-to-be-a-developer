@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: #c1dcdc; */
+    padding: 20px;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+li{
+    list-style-type: none;
+}
+.sup{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sec img{
+    width: 100%;
+}
+img{
+    height: 100%;
+}
+.img img{
+    width: 100%;
+}
+.gen{
+    position: relative;
+
+}
+.text{
+    position: fixed;
+    top: 500px;
+}
+.text h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+}
+.sup button{
+    border: none;
+    background: white;
+    display: inline-flex;
+    align-items: center;
+}
+.img1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    position: relative;
+}
+.img2,.img3,.img4,.img5, img{
+    width: 100%;
+}
+.img2,.img3,.img4,.img5, p{
+    font-size: 30px;
+    font-style: italic;
+}
+.img2,.img3,.img4,.img5 img{
+    width: 300px;
+    height: 400px;
+}
+.but button{
+    padding: 5px;
+    width: 250px;
+    background: transparent;
+    position: absolute;
+    top: 1450px;
+    left: 20px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+.wo img{
+    width: 100%;
+}
+.the{
+    padding-top: 100px;
+    position: relative;
+}
+.do h1{
+    position: absolute;
+    top: 850px;
+    color: white;
+}
+.a3,.a4,.a5,.a6 img{
+    width: 100%;
+}
+.a2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.a4,.a5,.a6,.a3 img{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 400px;
+}
+.first img{
+    width: 100%;
+}
+.second img{
+    width: 100%;
+}
+.b{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.con{
+    padding-top: 100px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* background: linear-gradient(45deg, rgba(0, 0, 255, 0.459) */
+    /* ,rgba(255, 0, 0, 0.384),rgba(0, 128, 0, 0.315),rgba(145, 145, 23, 0.548)); */
+    margin-top: 70px;
+    text-decoration: underline;
+}
+.r li{
+    
+}
